@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import requests
 
 from financial_enigne import run_financial_engine
 from portfolio_enigne import portfolio_metrics
